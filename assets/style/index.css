@@ -38,6 +38,11 @@ h2 {
   justify-content: center;
 }
 
+section {
+  min-height: 100vh;
+  padding: 80px 12% 120px;
+}
+
 /*--------------------------------------------------------------*/
 /* Header                                                     */
 /*--------------------------------------------------------------*/
@@ -94,11 +99,6 @@ header {
   font-size: 57px;
   color: var(--main-color);
   display: none;
-}
-
-section {
-  min-height: 100vh;
-  padding: 160px 12% 120px;
 }
 
 .home {
@@ -293,12 +293,12 @@ span {
   display: grid;
   text-align: center;
   background-color: var(--main-color);
-  height: 350px;
-  border-radius: 3rem;
+  height: 300px;
+  border-radius: 2rem;
   border: 1px solid transparent;
   cursor: pointer;
   transition: 0.3s ease-in-out;
-  padding: 10px;
+  padding: 10px 0;
   
 }
 
@@ -306,12 +306,11 @@ span {
   display: flex;
   flex-direction: column;
   text-align: left;
-  max-height: 200px;
+  max-height: 150px;
   justify-content: left;
   align-items: baseline;
-  padding: 5rem 5rem;
+  padding: 50px;
 }
-
 
 .about-info p {
   font-size: 17px;
@@ -757,23 +756,33 @@ footer .copyright {
     margin-top: 3rem;
   }
   .home-image img {
-    width: 56vw;
+    width: 57vw;
+    height: 300px;
   }
-  .btn-group {
-    display: flex;
+  .btn {
+    padding: 8px 15px;
+    margin: 30px;
+    margin-left: 45px;
     text-align: center;
-    align-items: center;
-    justify-content: center;
   }
   .about h2 {
     margin-bottom: 3rem;
   }
+  .about-info {
+    max-width: 100%;
+    padding: 15px;
+  }
   .about-info p {
     font-size: 13px;
+    text-align: center;
   }
   .about-container {
-    height: 350px;
+    height: 300px;
     text-align: center;
-    padding: 0;
+    padding: 1px 0;
+    justify-content: center;
+  }
+  .testimonial-item {
+    margin-top: 25px;
   }
 }
