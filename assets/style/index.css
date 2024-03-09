@@ -48,8 +48,8 @@ header {
   left: 0;
   width: 100%;
   padding: 4rem 12% 4rem;
-  background: rgb(0 0 0 / 0.5);
-  backdrop-filter: blur(12px);
+  background: rgb(0 0 0 / 0.7);
+  backdrop-filter: blur(20px);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -686,7 +686,7 @@ footer .copyright {
 /* Media Queries                                                     */
 /*--------------------------------------------------------------*/
 
-@media(max-width:1285px) {
+@media all and (max-width:1285px) {
   html {
     font-size: 55%;
   }
@@ -697,7 +697,7 @@ footer .copyright {
   }
 }
 
-@media(max-width:991px) {
+@media all and (max-width:991px) {
   header {
     padding: 2rem 3%;
   }
@@ -724,7 +724,7 @@ footer .copyright {
   }
 }
 
-@media(max-width:895px) {
+@media only screen and (max-width:895px) {
   #menu-icon {
     display: block;
     cursor: pointer;
