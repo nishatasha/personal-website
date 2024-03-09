@@ -204,7 +204,6 @@ span {
 
 .text-animation span {
   position: relative;
-  display: block;
 }
 
 .text-animation span::before {
